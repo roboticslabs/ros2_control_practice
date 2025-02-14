@@ -15,11 +15,11 @@
     <color rgba="0.2 0.2 1 1"/>
   </material>
   
-  <!-- BASE LINK  -->
+  <!-- BASE FOOTPRINT  -->
   <link name="base_footprint">    
   </link>
 
-  <!-- base -->
+  <!-- base_link -->
   <joint name="base_joint" type="fixed">
     <parent link="base_footprint"/>
     <child link="base_link"/>
