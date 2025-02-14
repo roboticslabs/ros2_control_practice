@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="bbot_robot">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="diffbot_robot">
 
-  <xacro:include filename="bbot_description.xacro"/>
+  <xacro:include filename="diffbot_description.urdf.xacro"/>
+
 
 </robot>
