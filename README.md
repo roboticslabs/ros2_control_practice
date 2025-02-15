@@ -1,8 +1,15 @@
 # ros2_control practice
+
+- Platform: ROS2 Jazzy + Gazebo Harmonic
+  
 Use the main branch as the diffbot ros2_control demo startup package
 
 ## Quick Start
 
+* Install ros2_control
+    ```bash   
+    sudo apt install ros-jazzy-ros2-control ros-jazzy-ros2-controllers
+    ```
 * Create a ros workspace
     ```bash   
     mkdir -p ~/ros2_ws/src
@@ -14,8 +21,7 @@ Use the main branch as the diffbot ros2_control demo startup package
     ```
 * Compile the package
     ```bash
-    cd ~/ros2_ws
-    sudo apt install ros-jazzy-ros2-control ros-jazzy-ros2-controllers
+    cd ~/ros2_ws    
     colcon build
     ```
 * Try it
