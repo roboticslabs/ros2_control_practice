@@ -1,2 +1,2 @@
-# ros2_control_demo
-ros2_control practice
+# ros2_control
+Diffbot ros2_control demo start package
