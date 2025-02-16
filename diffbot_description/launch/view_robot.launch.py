@@ -57,7 +57,7 @@ def generate_launch_description():
     robot_description = {"robot_description": robot_description_content}
 
     rviz_config_file = PathJoinSubstitution(
-        [FindPackageShare(description_package), "rviz", "diffbot_view.rviz"]
+        [FindPackageShare(description_package), "rviz", "diffbot.rviz"]
     )
 
     joint_state_publisher_node = Node(
