@@ -15,7 +15,7 @@
     <color rgba="0.2 0.2 1 1"/>
   </material>
   
-  <!-- BASE FOOTPRINT  -->
+  <!-- BASE FRAME LINK -->
   <link name="base_footprint">    
   </link>
 
