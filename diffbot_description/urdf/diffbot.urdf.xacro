@@ -4,6 +4,6 @@
   <xacro:include filename="diffbot_description.urdf.xacro"/>
 
   <xacro:include filename="diffbot.ros2_control.xacro"/>
-  <xacro:diffbot_ros2_control name="DiffBot" />
+  <xacro:diffbot_ros2_control/>
 
 </robot>
