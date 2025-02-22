@@ -1,0 +1,30 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50  # Hz
+    use_sim_time: true
+
+    # Declare the controllers
+    diff_controller:
+      type: diff_drive_controller/DiffDriveController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster      
+
+# Parameters for controllers
+diff_controller:
+  ros__parameters:
+    publish_rate: 50.0
+
+    odom_frame_id: odom # can delete this
+    base_frame_id: base_footprint
+
+    # Joint names
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+
+    # Robot physical parameters
+    wheel_separation: 0.35
+    wheel_radius: 0.05
+
+    # In Jazzy onwards, the preference is to use stamped messages for control
+    use_stamped_vel: true
