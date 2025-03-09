@@ -1,4 +1,4 @@
-# ros2_control practice
+# ros2_control diffbot demo
 
 - Platform: ROS2 Jazzy + Gazebo Harmonic
   
